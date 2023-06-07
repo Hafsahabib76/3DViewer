@@ -32,7 +32,7 @@ controls.keys = {
 	RIGHT: 'ArrowRight', // right arrow
 	BOTTOM: 'ArrowDown' // down arrow
 }
-controls.enableZoom = false;
+controls.enableZoom = true;
 controls.addEventListener('change', () => {
     renderer.render(scene, camera);
 });
